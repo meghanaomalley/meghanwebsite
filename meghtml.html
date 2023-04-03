@@ -32,79 +32,123 @@
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
-	#Rectangle_1 {
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
+	@keyframes  {
+	
+	
 	}
-	.Rectangle_1 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 1938px;
-		height: 114px;
-		left: 0px;
-		top: 0px;
+	@keyframes  {
+	
+	
+	}
+	@keyframes  {
+	
+	
 	}
 	#About {
-		left: 40px;
-		top: 27px;
+		left: 81px;
+		top: 23px;
 		position: absolute;
 		overflow: visible;
-		width: 113px;
-		height: 42px;
+		width: 63px;
+		height: 24px;
 		text-align: left;
 		font-family: Helvetica;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 35px;
+		font-size: 20px;
 		color: rgba(30,32,29,1);
 	}
 	#Resume {
-		left: 192px;
-		top: 27px;
+		left: 233px;
+		top: 23px;
 		position: absolute;
 		overflow: visible;
-		width: 143px;
-		height: 42px;
+		width: 82px;
+		height: 24px;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Web_1920___2.html;
+		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 35px;
+		font-size: 20px;
 		color: rgba(30,32,29,1);
 	}
 	#Projects {
-		left: 374px;
-		top: 27px;
+		left: 415px;
+		top: 23px;
 		position: absolute;
 		overflow: visible;
 		width: 143px;
-		height: 42px;
+		height: 24px;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Web_1920___3.html;
+		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 35px;
+		font-size: 20px;
 		color: rgba(30,32,29,1);
 	}
 	#Connect {
-		left: 556px;
-		top: 27px;
+		left: 597px;
+		top: 23px;
 		position: absolute;
 		overflow: visible;
 		width: 143px;
-		height: 42px;
+		height: 24px;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Web_1920___4.html;
+		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 35px;
+		font-size: 20px;
 		color: rgba(30,32,29,1);
+		text-decoration: underline;
+	}
+	#Meet_Meghan {
+		filter: drop-shadow(0px 3px 6px rgba(239, 238, 234, 1));
+		left: 67px;
+		top: 121px;
+		position: absolute;
+		overflow: visible;
+		width: 1062px;
+		height: 213px;
+		text-align: left;
+		font-family: Nirmala UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 160px;
+		color: rgba(30,32,29,1);
+	}
+	#Hi_my_name_is_Meghan_OMalley_a {
+		left: 143px;
+		top: 408px;
+		position: absolute;
+		overflow: visible;
+		width: 433px;
+		height: 600px;
+		text-align: left;
+		font-family: Nirmala UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#mewhiteb {
+		position: absolute;
+		width: 511px;
+		height: 493px;
+		left: 617px;
+		top: 373px;
+		overflow: visible;
 	}
 </style>
 <script id="applicationScript">
@@ -3020,24 +3064,26 @@ window.application = new Application();
 </head>
 <body>
 <div id="Web_1920__1">
-	<svg class="Rectangle_1">
-		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="96">
-		</rect>
-	</svg>
 	<div id="About">
 		<span>About</span>
 	</div>
-	<div id="Resume">
+	<div onclick="application.goToTargetView(event)" id="Resume">
 		<span>Resume</span>
 	</div>
-	<div id="Projects">
+	<div onclick="application.goToTargetView(event)" id="Projects">
 		<span>Projects</span>
 	</div>
-	<div id="Connect">
+	<div onclick="application.goToTargetView(event)" id="Connect">
 		<span>Connect</span>
 	</div>
+	<div id="Meet_Meghan">
+		<span>Meet Meghan</span>
+	</div>
+	<div id="Hi_my_name_is_Meghan_OMalley_a">
+		<span>Hi, my name is Meghan O’Malley and I’m currently living in Coronado, California. I’m a long time runner turned triathlete and have competed collegiately for the University of Colorado's triathlon team. I am a very dedicated and disciplined person who is willing to do all the little things in order to reach my goals. Additionally, I am very passionate about using information and data to improve myself, others, and the world around me. I was able to incorporate those passions into multiple projects while earning my bachelor’s degree in Information Science. My experiences have taught me the importance of data analysis and how it can be used to improve performance.I am looking to use my skills and passions to aid the U.S. Military.</span><br/>
+	</div>
+	<img id="mewhiteb" src="mewhiteb.png" srcset="mewhiteb.png 1x, mewhiteb@2x.png 2x">
+		
 </div>
 </body>
 </html>
-
-
